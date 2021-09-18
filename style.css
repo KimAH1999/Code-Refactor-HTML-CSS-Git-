@@ -1,3 +1,9 @@
+:root {
+    /*Helps test colors quicker*/
+    --main-bg--color:#ffffff;
+    --main-border-color:rgb(9, 138, 189);
+    --main-border2-color:rgb(0, 92, 196);
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,13 +11,13 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #d9dcd6;
 }
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #0237b4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
@@ -51,7 +57,7 @@ p {
 }
 
 .hero {
-    height: 500px;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -139,7 +145,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -148,7 +154,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -157,7 +163,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -197,4 +203,18 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/*Mobile small screens */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 540px) and (max-width: 768px) {
+    .view {
+        width: 600px;
+    }
 }
