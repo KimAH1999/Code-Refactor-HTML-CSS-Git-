@@ -13,7 +13,8 @@ As one of many that just want to grow and learn new skills. I decided to take my
 For this task, we were to adjust the application to become more easiliy accessiable.
 
 ##Webpage
+Demo: https://kimah1999.github.io/Code-Refactor-HTML-CSS-Git-/
 ![01-html-css-git-homework-demo](https://user-images.githubusercontent.com/87666809/133911067-346fb861-3dfe-4813-ac6d-4bc253960731.png)
 
 
-Demo: https://kimah1999.github.io/Code-Refactor-HTML-CSS-Git-/
+
